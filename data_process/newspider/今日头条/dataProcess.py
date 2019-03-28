@@ -85,10 +85,10 @@ moneyD = dataProcess('datasource/moneynews{}.txt'.format(str(datetime.date.today
 moneyD.process()
 
 '''fashionD = dataProcess('datasource/fashionnews{}.txt'.format(str(datetime.date.today())))
-fashionD.process()
+fashionD.process()'''
 
 healthD = dataProcess('datasource/healthnews{}.txt'.format(str(datetime.date.today())))
-healthD.process()'''
+healthD.process()
 
 itD = dataProcess('datasource/itnews{}.txt'.format(str(datetime.date.today())))
 itD.process()
